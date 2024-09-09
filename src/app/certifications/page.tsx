@@ -1,6 +1,13 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import CertificationCard from '../components/CertificationCard'
+import Footer from '../components/Footer'
+// import { Dela_Gothic_One } from '@next/font/google'
+
+// const delaGothicOne = Dela_Gothic_One({
+//     weight: '400',
+//     subsets: ['latin']
+// })
 
 const page = () => {
 
@@ -46,15 +53,29 @@ const page = () => {
       date:'May 11, 2024',
       certificateLink: 'https://drive.google.com/file/d/1W-bUATbF0yWGsJQQgpyBv1-Qvs64P6Un/view',
     },
+
+    {
+      logo: '/assets/edx.svg',
+      courseName: 'Blockchain: Understanding Its Uses and Implications',
+      date:'Dec 19, 2023',
+      certificateLink: 'https://drive.google.com/file/d/1Fv_IwsV2oVUoabk3LgMQgF9fx9Ox7IXq/view',
+    },
+
+    {
+      logo: '/assets/365.png',
+      courseName: 'Git and GitHub - 365 Data Science',
+      date:'Nov 16, 2022',
+      certificateLink: 'https://drive.google.com/file/d/17lOgUgLfG5GQ2mRyngWabsUOWX-EmeQi/view',
+    },
   ];
 
   return (
     <div>
         <Navbar/>
         <div>
-            <h1 className='text-3xl font-bold text-center py-5'>Certifications</h1>
+            <h1 className='text-3xl font-bold text-center py-10 font-'>Certifications</h1>
         </div>
-        <div className='flex flex-col items-center gap-y-5'>
+        <div className='flex flex-col items-center gap-y-6 pb-6'>
           {certificates.map((certificate, index) => (
             <CertificationCard
               key={index}
@@ -65,6 +86,7 @@ const page = () => {
             />
           ))}
         </div>
+        <Footer/>
     </div>
   )
 }
