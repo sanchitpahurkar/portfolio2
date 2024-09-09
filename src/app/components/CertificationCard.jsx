@@ -28,7 +28,7 @@ const CertificationCard = ({logo, courseName, date, certificateLink}) => {
         href={certificateLink} 
         target='_blank' 
         rel='noopener noreferrer'
-        className='bg-black text-white rounded py-2 px-4 mr-2'
+        className='bg-black text-white font-semibold rounded py-2 px-4 mr-2'
         >
             View
         </a>
