@@ -2,12 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import CertificationCard from '../components/CertificationCard'
 import Footer from '../components/Footer'
-// import { Dela_Gothic_One } from '@next/font/google'
 
-// const delaGothicOne = Dela_Gothic_One({
-//     weight: '400',
-//     subsets: ['latin']
-// })
 
 const page = () => {
 
@@ -75,7 +70,7 @@ const page = () => {
         <div>
             <h1 className='text-3xl font-bold text-center py-10 font-'>Certifications</h1>
         </div>
-        <div className='flex flex-col items-center gap-y-6 pb-6'>
+        <div className='flex flex-col items-center gap-y-6 pb-6 animate-fade animate-once animate-ease-in-out'>
           {certificates.map((certificate, index) => (
             <CertificationCard
               key={index}

@@ -26,5 +26,40 @@ body {
   }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+.custom-bg {
+  background-color: #e5e5f7;
+  opacity: 1;
+  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #e5e5f7 40px),
+    repeating-linear-gradient(#b8b8b855, #b8b8b8);
+}
+
+/* pages/globals.css */
+
+@font-face {
+  font-family: "Akira Expanded";
+  src: url("/fonts/Akira Expanded Demo.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.akira-font {
+  font-family: "Akira Expanded", sans-serif;
+}
+
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("/fonts/BebasNeue-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.bebas-font {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+
+
+
+
 
