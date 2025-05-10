@@ -1,13 +1,14 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import About from '../components/About'
 
 const page = () => {
   return (
     <div>
         <Navbar/>
         <div>
-            <h1 className='text-3xl font-bold text-center py-5'>About Me</h1>
+            <About/>
         </div>
         <Footer/>
     </div>

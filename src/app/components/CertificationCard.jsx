@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const CertificationCard = ({logo, courseName, date, certificateLink}) => {
   return (
-    <div className='flex w-1/2 bg-white text-black justify-between items-center rounded-lg shadow-lg'>
+    <div className='flex lg:w-1/2 md:w-4/5 w-[90%] bg-white text-black justify-between items-center rounded-lg shadow-lg'>
         {/* organization logo */}
         <div className='flex items-center gap-x-4'>
             <Image

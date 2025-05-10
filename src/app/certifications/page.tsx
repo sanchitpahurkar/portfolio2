@@ -68,7 +68,7 @@ const page = () => {
     <div>
         <Navbar/>
         <div>
-            <h1 className='text-3xl font-bold text-center py-10 font-'>Certifications</h1>
+            <h1 className='text-4xl font-bold text-gray-800 text-center py-10'>Certifications</h1>
         </div>
         <div className='flex flex-col items-center gap-y-6 pb-6 animate-fade animate-once animate-ease-in-out'>
           {certificates.map((certificate, index) => (
