@@ -37,20 +37,6 @@ const page = () => {
 
     {
       logo: '/assets/edx.svg',
-      courseName: 'Back-end Application Development with Node.js and Express',
-      date:'May 11, 2024',
-      certificateLink: 'https://drive.google.com/file/d/1vLstFHJZ_TF6QY3KLfKW1WSCnpVLSobk/view',
-    },
-
-    {
-      logo: '/assets/edx.svg',
-      courseName: 'Introduction to Cloud Native, DevOps, Agile, and NoSQL',
-      date:'May 11, 2024',
-      certificateLink: 'https://drive.google.com/file/d/1W-bUATbF0yWGsJQQgpyBv1-Qvs64P6Un/view',
-    },
-
-    {
-      logo: '/assets/edx.svg',
       courseName: 'Blockchain: Understanding Its Uses and Implications',
       date:'Dec 19, 2023',
       certificateLink: 'https://drive.google.com/file/d/1Fv_IwsV2oVUoabk3LgMQgF9fx9Ox7IXq/view',
