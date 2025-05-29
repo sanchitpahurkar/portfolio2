@@ -34,6 +34,36 @@ body {
     repeating-linear-gradient(#b8b8b855, #b8b8b8);
 }
 
+.gradient-text {
+  background: linear-gradient(to right, #00B4DB, #8E2DE2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-peach-pink {
+  background: linear-gradient(to right, #FF6A00, #EE0979);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-aqua-teal {
+  background: linear-gradient(to right, #00F5A0, #00D9F5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-gold-orange {
+  background: linear-gradient(to right, #FFD700, #FF8C00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-neon-cyan {
+  background: linear-gradient(to right, #39FF14, #00FFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* pages/globals.css */
 
 @font-face {

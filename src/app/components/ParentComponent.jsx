@@ -11,13 +11,6 @@ const ParentComponent = () => {
       githubLink: 'https://github.com/sanchitpahurkar/MeloMotion',
     },
     {
-      title: 'EventEase',
-      description: 'A campus event management platform built using ReactJs and Firebase',
-      image: '/assets/eventease.png',
-      githubLink: 'https://github.com/sanchitpahurkar/EventEase-Mini_Project',
-      deploymentLink: 'https://event-ease-xi-nine.vercel.app/',
-    },
-    {
       title: 'HomeScope',
       description: 'Full-stack application designed to predict house prices',
       image: '/assets/homescope.jpeg',

@@ -28,7 +28,7 @@ const Cards = ({ projects }) => {
                   href={project.githubLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="h-10 px-4 rounded-md bg-black text-white text-sm text-center flex items-center justify-center"
+                  className="h-10 px-4 rounded-md shadow-lg bg-black text-white text-sm text-center flex items-center justify-center"
                 >
                   GitHub
                 </a>
@@ -38,7 +38,7 @@ const Cards = ({ projects }) => {
                     href={project.deploymentLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="h-10 px-4 rounded-md bg-black text-white text-sm text-center flex items-center justify-center"
+                    className="h-10 px-4 rounded-md shadow-lg bg-black text-white text-sm text-center flex items-center justify-center"
                   >
                     Live
                   </a>

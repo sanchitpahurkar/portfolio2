@@ -88,11 +88,7 @@ export default function Navbar() {
       </div>
 
       {/* Theme Toggle */}
-      <div className="hidden sm:block">
-        <button className="h-8 bg-gray-800 text-white py-1 px-3 rounded">
-          Theme
-        </button>
-      </div>
+      
     </nav>
   )
 }
