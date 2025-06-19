@@ -61,7 +61,7 @@ export default function Navbar() {
       <div
         className={`${
           isOpen ? 'block' : 'hidden'
-        } absolute top-full left-0 w-full bg-white shadow-lg sm:hidden`}
+        } absolute top-full left-0 w-full bg-white shadow-lg sm:hidden dark:text-gray-800`}
       >
         <Link href="/projects" className="block py-2 px-4 border-b">
           Projects
@@ -75,7 +75,7 @@ export default function Navbar() {
       </div>
 
       {/* Nav Links for Medium and Large Devices */}
-      <div className="hidden sm:flex sm:gap-10 sm:items-center">
+      <div className="hidden sm:flex sm:gap-10 sm:items-center dark:text-gray-800">
         <Link href="/projects" className="py-0 px-0">
           Projects
         </Link>

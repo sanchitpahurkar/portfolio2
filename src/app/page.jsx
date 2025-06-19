@@ -9,7 +9,7 @@ export default function Home() {
       >
           <div className='flex flex-col items-center justify-center animate-fade-up animate-once animate-delay-500 animate-ease-in-out'>
             <h1 className='text-9xl font-bold bebas-font text-center '>
-              <span className=' gradient-text'>HELLO </span><span>WORLD!</span>
+              <span className=' gradient-text'>HELLO </span><span className='text-black'>WORLD!</span>
             </h1>
             <h2 className='text-6xl font-bold bebas-font text-black'>
               I am <span className='gradient-text'>Sanchit</span>
@@ -22,8 +22,8 @@ export default function Home() {
       {/* Tech Stack */}
       <section className="flex flex-col items-center gap-y-5">
         <div className='lg:py-16 py-10 flex flex-col items-center gap-y-2'>
-          <h1 className="text-4xl font-bold text-gray-800">Tech Stack</h1>
-          <div className='w-28 h-1 rounded-full bg-gray-800'></div>
+          <h1 className="text-4xl font-bold text-gray-800 dark:text-gray-200">Tech Stack</h1>
+          <div className='w-28 h-1 rounded-full bg-gray-800 dark:bg-gray-200'></div>
         </div>
 
         {/* Dynamic Tech Stack Grid */}

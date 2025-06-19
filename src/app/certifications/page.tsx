@@ -67,8 +67,8 @@ const page = () => {
         <Navbar/>
         <div>
             <div className='flex flex-col justify-center items-center py-10 gap-y-1'>
-              <h1 className='text-4xl font-bold text-gray-800 text-center'>Certifications</h1>
-              <div className='w-32 h-1 rounded-full bg-gray-800'></div>
+              <h1 className='text-4xl font-bold text-gray-800 text-center dark:text-gray-200'>Certifications</h1>
+              <div className='w-32 h-1 rounded-full bg-gray-800 dark:bg-white'></div>
             </div>
         </div>
         <div className='flex flex-col items-center gap-y-6 pb-6 animate-fade animate-once animate-ease-in-out'>

@@ -19,7 +19,7 @@ const Cards = ({ projects }) => {
                 className="rounded-lg"
               />
             </figure>
-            <div className="p-3 flex flex-col gap-2">
+            <div className="p-3 flex flex-col gap-2 text-black">
               <h2 className="text-lg font-bold">{project.title}</h2>
               <p>{project.description}</p>
               <div className="flex gap-4 justify-start">
