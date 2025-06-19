@@ -8,7 +8,7 @@ const Cards = ({ projects }) => {
   }
 
   return (
-    <div className="flex justify-center mb-10 md:px-2">
+    <div className="flex justify-center mb-10 md:px-2 animate-fade animate-once animate-ease-in-out">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
         {projects.map((project, index) => (
           <div key={index} className="w-96 rounded-lg bg-white shadow-sm">

@@ -10,7 +10,8 @@ const Footer = () => {
                 <div className='flex flex-col gap-y-2'>
                     <a href="https://leetcode.com/u/sanchit_pahurkar/" target='_blank'>LeetCode</a>
                     <a href="https://www.codechef.com/users/sanchit_p23" target='_blank'>CodeChef</a>
-                    <a href="https://codeforces.com/profile/sanchit.pahurkar" target='_blank'>CodeForces</a>
+                    <a href="https://codolio.com/profile/sanchit_pahurkar" target='_blank'>Codolio</a>
+                    <a href="https://www.geeksforgeeks.org/user/sanchitpahurkar/" target='_blank'>GeerkForGeeks</a>
                 </div>
             </div>
 
@@ -25,16 +26,6 @@ const Footer = () => {
                 </div>
             </div>
 
-            {/* community */}
-            <div className='flex flex-col'>
-                <h3 className='font-semibold py-2'>Community</h3>
-                <div className='flex flex-col gap-y-2'>
-                    <a href="https://sanchitpahurkar.hashnode.dev/" target='_blank'>Hashnode</a>
-                    <a href="https://medium.com/" target='_blank'>Medium</a>
-                    <a href="https://medial.app/" target='_blank'>Medial</a>
-                    <a href="https://www.bluelearn.in/community" target='_blank'>Bluelearn</a>
-                </div>
-            </div>
         </footer>
     </div>
   )

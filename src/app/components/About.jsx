@@ -14,6 +14,8 @@ Learning, Web Development, and UI/UX design. I enjoy building responsive, user-f
 combine creativity with clean code and help solve real-world problems. Eager to learn, grow, and contribute in a
 collaborative, innovative environment.
         </p>
+
+        <p className='text-lg text-gray-600 leading-relaxed mt-8'><span className='font-bold'>📧 Email : </span>sanchit.pahurkar@gmail.com</p>
       </div>
       <div>
         <img src="/assets/me.png" className='h-96' alt="profile" />

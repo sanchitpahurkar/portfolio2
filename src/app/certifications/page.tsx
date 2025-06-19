@@ -8,10 +8,29 @@ const page = () => {
 
   const certificates = [
     {
+      logo: '/assets/eduskills.jpeg',
+      courseName: 'Python Full-Stack Virtual Internship',
+      date:'May 12, 2025',
+      certificateLink: 'https://drive.google.com/file/d/1gXSfGnQeJgw_ibC-cbrvHo2ffv4thsSK/view',
+    },
+    {
+      logo: '/assets/eduskills.jpeg',
+      courseName: 'AI-ML Virtual Internship',
+      date:'January - March 2025',
+      certificateLink: 'https://drive.google.com/file/d/14ta4nmZEq-xYg81suxrLpTMWpisB_Wvn/view',
+    },
+    {
       logo: '/assets/edx.svg',
       courseName: 'Web Development with HTML5, CSS3, & JS',
       date:'May 11, 2024',
       certificateLink: 'https://drive.google.com/file/d/1efq6uEltlG2T--5kaylQkoNYwuVDN4OC/view',
+    },
+
+    {
+      logo: '/assets/awsml.png',
+      courseName: 'AWS Academy Graduate - AWS Academy Machine Learning Foundations',
+      date:'Oct 25, 2023',
+      certificateLink: 'https://drive.google.com/file/d/1iKe1mOedNHynwi_W6qcnoC1OkxpB7pg4/view',
     },
 
     {
@@ -33,13 +52,6 @@ const page = () => {
       courseName: 'Introduction to Linux',
       date:'Dec 8, 2023',
       certificateLink: 'https://drive.google.com/file/d/1bdDdzANPXzEfrzaEhBtBSRIde6kcj7jg/view?usp=sharing',
-    },
-
-    {
-      logo: '/assets/edx.svg',
-      courseName: 'Blockchain: Understanding Its Uses and Implications',
-      date:'Dec 19, 2023',
-      certificateLink: 'https://drive.google.com/file/d/1Fv_IwsV2oVUoabk3LgMQgF9fx9Ox7IXq/view',
     },
 
     {
