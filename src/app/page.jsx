@@ -35,19 +35,35 @@ export default function Home() {
             { src: "/assets/js.png", alt: "JavaScript" },
             { src: "/assets/tailwind.png", alt: "Tailwind CSS" },
             { src: "/assets/react.webp", alt: "ReactJs" },
-            { src: "/assets/aws.png", alt: "AWS Cloud" },
-            { src: "/assets/flask.png", alt: "Flask" },
+            { 
+              src: "/assets/aws.png",
+              darkSrc: "/assets/awsdarksq.png",
+              alt: "AWS Cloud" 
+            },
+            { 
+              src: "/assets/flask.png",
+              darkSrc: "/assets/flaskdark.png",
+              alt: "Flask" 
+            },
             { src: "/assets/mysql.png", alt: "mySQL" },
-            { src: "/assets/github black.png", alt: "GitHub" },
+            { 
+              src: "/assets/github black.png",
+              darkSrc: "/assets/github.png",
+              alt: "GitHub" 
+            },
             { src: "/assets/vscode.png", alt: "VS Code" },
             { src: "/assets/figma.png", alt: "Figma" },
           ].map((tech, idx) => (
-            <img
-              key={idx}
-              src={tech.src}
-              className="h-20 sm:h-24 md:h-28 hover:animate-pulse hover:animate-once hover:animate-duration-[1000ms]"
-              alt={tech.alt}
-            />
+            <picture key={idx}>
+              {tech.darkSrc && (
+                <source srcSet={tech.darkSrc} media="(prefers-color-scheme: dark)" />
+              )}
+              <img
+                src={tech.src}
+                className="h-20 sm:h-24 md:h-28 hover:animate-pulse hover:animate-once hover:animate-duration-[1000ms]"
+                alt={tech.alt}
+              />
+            </picture>
           ))}
         </div>
       </section> 
