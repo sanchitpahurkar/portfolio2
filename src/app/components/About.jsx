@@ -18,7 +18,7 @@ collaborative, innovative environment.
         <p className='text-lg text-gray-400 leading-relaxed mt-8'><span className='font-bold'>📧 Email : </span>sanchit.pahurkar@gmail.com</p>
       </div>
       <div>
-        <img src="/assets/me.png" className='md:h-96' alt="profile" />
+        <img src="https://sanchitpahurkar.s3.us-east-1.amazonaws.com/me.png" className='md:h-96' alt="profile" />
       </div>
     </div>
   )

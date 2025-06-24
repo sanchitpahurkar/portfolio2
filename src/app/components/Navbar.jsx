@@ -85,6 +85,9 @@ export default function Navbar() {
         <Link href="/certifications" className="py-0 px-0">
           Certifications
         </Link>
+        <Link href="https://sanchitpahurkar.s3.us-east-1.amazonaws.com/SANCHIT+PAHURKAR+-+CAMPUS+6June.pdf" className="py-0 px-0">
+          Resume
+        </Link>
       </div>
 
       {/* Theme Toggle */}
