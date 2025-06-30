@@ -8,6 +8,12 @@ const page = () => {
 
   const certificates = [
     {
+      logo: '/assets/forage.png',
+      courseName: 'Solutions Architecture Job Simulation',
+      date:'June 23, 2025',
+      certificateLink: 'https://drive.google.com/file/d/1BwYeN0wlVIzVqiVtk3O6eCD0TUERNkUL/view',
+    },
+    {
       logo: '/assets/eduskills.jpeg',
       courseName: 'Python Full-Stack Virtual Internship',
       date:'May 12, 2025',

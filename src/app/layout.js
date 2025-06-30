@@ -1,6 +1,9 @@
-import localFont from "next/font/local";
+import { Inter } from "next/font/google";
 import "./globals.css";
+import { ThemeProvider } from "next-themes";
 
+
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Sanchit Pahurkar",
@@ -9,12 +12,19 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning className={inter.className}>
       <head>
         <link rel="icon" href="/assets/favicon.ico" />
       </head>
       <body>
-        {children}
+        <ThemeProvider 
+          enableSystem
+          attribute="class"
+          defaultTheme="light"
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );

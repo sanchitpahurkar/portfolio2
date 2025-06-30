@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Cards = ({ projects }) => {
   console.log('Projects:', projects) // Debugging line
@@ -13,10 +14,12 @@ const Cards = ({ projects }) => {
         {projects.map((project, index) => (
           <div key={index} className="w-96 rounded-lg bg-white shadow-sm">
             <figure>
-              <img
+              <Image
                 src={project.image}
                 alt={project.title}
                 className="rounded-lg"
+                width={384}
+                height={250}
               />
             </figure>
             <div className="p-3 flex flex-col gap-2 text-black">

@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image';
 
 const About = () => {
   return (
@@ -8,17 +9,17 @@ const About = () => {
           <h1 className="text-4xl font-bold text-gray-800 dark:text-gray-200">About Me</h1>
           <div className='w-28 h-1 rounded-full bg-gray-800 dark:bg-gray-200'></div>
         </div>
-        <p className="text-lg text-gray-400 leading-relaxed ">
+        <p className="text-lg dark:text-gray-400 text-gray-800 leading-relaxed ">
           Hi, I'm Sanchit, I’m a Computer Science (AIML) student at RCOEM, Nagpur, passionate about Machine Learning, Deep
 Learning, Web Development, and UI/UX design. I enjoy building responsive, user-friendly web apps that
 combine creativity with clean code and help solve real-world problems. Eager to learn, grow, and contribute in a
 collaborative, innovative environment.
         </p>
 
-        <p className='text-lg text-gray-400 leading-relaxed mt-8'><span className='font-bold'>📧 Email : </span>sanchit.pahurkar@gmail.com</p>
+        <p className='text-lg dark:text-gray-400 text-gray-800 leading-relaxed mt-8'><span className='font-bold'>📧 Email : </span>sanchit.pahurkar@gmail.com</p>
       </div>
       <div>
-        <img src="https://sanchitpahurkar.s3.us-east-1.amazonaws.com/me.png" className='md:h-96' alt="profile" />
+        <Image src="https://sanchitpahurkar.s3.us-east-1.amazonaws.com/me.png" className='md:h-96' alt="profile" width={384} height={384}/>
       </div>
     </div>
   )

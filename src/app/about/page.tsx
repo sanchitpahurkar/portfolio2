@@ -7,7 +7,7 @@ const page = () => {
   return (
     <div>
         <Navbar/>
-        <div>
+        <div className='animate-fade animate-once animate-ease-in-out'>
             <About/>
         </div>
         <Footer/>

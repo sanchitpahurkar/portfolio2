@@ -1,6 +1,14 @@
+'use client'
+
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Image from 'next/image';
+import { useTheme } from "next-themes"
+
 export default function Home() {
+
+  const { resolvedTheme } = useTheme();
+
   return (
     <div className=''>
       <Navbar/>
@@ -9,7 +17,7 @@ export default function Home() {
       >
           <div className='flex flex-col items-center justify-center animate-fade-up animate-once animate-delay-500 animate-ease-in-out'>
             <h1 className='text-9xl font-bold bebas-font text-center '>
-              <span className=' gradient-text'>HELLO </span><span className='text-black'>WORLD!</span>
+              <span className='text-black'>HELLO </span><span className='text-black'>WORLD!</span>
             </h1>
             <h2 className='text-6xl font-bold bebas-font text-black'>
               I am <span className='gradient-text'>Sanchit</span>
@@ -54,16 +62,12 @@ export default function Home() {
             { src: "/assets/vscode.png", alt: "VS Code" },
             { src: "/assets/figma.png", alt: "Figma" },
           ].map((tech, idx) => (
-            <picture key={idx}>
-              {tech.darkSrc && (
-                <source srcSet={tech.darkSrc} media="(prefers-color-scheme: dark)" />
-              )}
-              <img
-                src={tech.src}
-                className="h-20 sm:h-24 md:h-28 hover:animate-pulse hover:animate-once hover:animate-duration-[1000ms]"
-                alt={tech.alt}
-              />
-            </picture>
+            <img
+              key={idx}
+              src={resolvedTheme === "dark" && tech.darkSrc ? tech.darkSrc : tech.src}
+              className="h-20 w-20 sm:h-24 sm:w-24 md:h-28 md:w-28 hover:animate-pulse hover:animate-once hover:animate-duration-[1000ms]"
+              alt={tech.alt}
+            />
           ))}
         </div>
       </section> 
