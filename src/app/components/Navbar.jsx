@@ -64,7 +64,7 @@ export default function Navbar() {
       <div
         className={`${
           isOpen ? 'block' : 'hidden'
-        } absolute top-full left-0 w-full bg-white dark:bg-black shadow-lg sm:hidden dark:text-black`}
+        } absolute top-full left-0 w-full bg-white dark:bg-black shadow-lg sm:hidden dark:text-black z-50`}
       >
         <Link href="/projects" className="block py-2 px-4 border-b dark:text-white">
           Projects
