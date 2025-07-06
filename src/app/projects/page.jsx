@@ -5,7 +5,7 @@ import ParentComponent from '../components/ParentComponent'
 
 const Page = () => {
   return (
-    <div className='bg-white dark:bg-[#1a1a2e]'>
+    <div className='bg-[#f1f5f9] dark:bg-[#1a1a2e]'>
       <Navbar/>
       <div className=''>
           <div className='flex flex-col justify-center items-center py-10 gap-y-1'>
