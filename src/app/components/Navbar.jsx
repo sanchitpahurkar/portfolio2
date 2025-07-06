@@ -64,18 +64,18 @@ export default function Navbar() {
       <div
         className={`${
           isOpen ? 'block' : 'hidden'
-        } absolute top-full left-0 w-full bg-white dark:bg-black shadow-lg sm:hidden dark:text-black z-50`}
+        } absolute top-full left-0 w-full text-white shadow-lg sm:hidden  z-50`}
       >
-        <Link href="/projects" className="block py-2 px-4 border-b bg-[#00d4ff]">
+        <Link href="/projects" className="block py-2 px-4 border-b bg-[#1a1a2e]">
           Projects
         </Link>
-        <Link href="/about" className="block py-2 px-4 border-b bg-[#00d4ff]">
+        <Link href="/about" className="block py-2 px-4 border-b bg-[#1a1a2e]">
           About
         </Link>
-        <Link href="/certifications" className="block py-2 px-4 border-b bg-[#00d4ff]">
+        <Link href="/certifications" className="block py-2 px-4 border-b bg-[#1a1a2e]">
           Certifications
         </Link>
-        <Link href="https://sanchitpahurkar.s3.us-east-1.amazonaws.com/SANCHIT+PAHURKAR+-+CAMPUS+6June.pdf" className="block py-2 px-4 border-b bg-[#00d4ff]">
+        <Link href="https://sanchitpahurkar.s3.us-east-1.amazonaws.com/SANCHIT+PAHURKAR+-+CAMPUS+6June.pdf" className="block py-2 px-4 border-b bg-[#1a1a2e]">
           Resume
         </Link>
       </div>
