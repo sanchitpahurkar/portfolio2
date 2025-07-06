@@ -69,7 +69,7 @@ const page = () => {
   ];
 
   return (
-    <div>
+    <div className='bg-[#1a1a2e]'>
         <Navbar/>
         <div>
             <div className='flex flex-col justify-center items-center py-10 gap-y-1'>

@@ -5,7 +5,7 @@ import About from '../components/About'
 
 const page = () => {
   return (
-    <div>
+    <div className='bg-white dark:bg-[#1a1a2e]'>
         <Navbar/>
         <div className='animate-fade animate-once animate-ease-in-out'>
             <About/>

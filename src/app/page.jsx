@@ -13,22 +13,22 @@ export default function Home() {
     <div className=''>
       <Navbar/>
       <section
-       className='h-screen custom-bg flex items-center justify-center'
+       className='h-screen bg-[#1a1a2e] flex items-center justify-center'
       >
           <div className='flex flex-col items-center justify-center animate-fade-up animate-once animate-delay-500 animate-ease-in-out'>
             <h1 className='text-9xl font-bold bebas-font text-center '>
-              <span className='text-black'>HELLO </span><span className='text-black'>WORLD!</span>
+              <span className='text-white'>HELLO </span><span className='text-white'>WORLD!</span>
             </h1>
-            <h2 className='text-6xl font-bold bebas-font text-black'>
+            <h2 className='text-6xl font-bold bebas-font text-white'>
               I am <span className='gradient-text'>Sanchit</span>
             </h2>
-            <h2 className='text-4xl font-bold bebas-font text-black '>
+            <h2 className='text-4xl font-bold bebas-font text-white '>
               <span className='gradient-peach-pink'>DSA</span> | <span className='gradient-peach-pink'>Web dev</span> | <span className='gradient-peach-pink'>ML</span>
             </h2>
           </div>
       </section>
       {/* Tech Stack */}
-      <section className="flex flex-col items-center gap-y-5">
+      <section className="flex flex-col items-center gap-y-5 bg-white dark:bg-[#1a1a2e]">
         <div className='lg:py-16 py-10 flex flex-col items-center gap-y-2'>
           <h1 className="text-4xl font-bold text-gray-800 dark:text-gray-200">Tech Stack</h1>
           <div className='w-28 h-1 rounded-full bg-gray-800 dark:bg-gray-200'></div>
