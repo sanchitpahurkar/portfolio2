@@ -9,11 +9,11 @@
   }
 }
 
+
 .custom-bg {
-  background-color: #e5e5f7;
+  background-color: #1a1a2e;
   opacity: 1;
-  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #e5e5f7 40px),
-    repeating-linear-gradient(#b8b8b855, #b8b8b8);
+  background: linear-gradient(135deg, #16164e55 25%, transparent 25%) -20px 0/ 40px 40px, linear-gradient(225deg, #16164e 25%, transparent 25%) -20px 0/ 40px 40px, linear-gradient(315deg, #16164e55 25%, transparent 25%) 0px 0/ 40px 40px, linear-gradient(45deg, #16164e 25%, #1a1a2e 25%) 0px 0/ 40px 40px;
 }
 
 .gradient-text {

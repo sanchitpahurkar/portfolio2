@@ -12,9 +12,9 @@ export default function Navbar() {
   }
 
   return (
-    <nav className="relative flex justify-between items-center p-5 bg-white dark:bg-black shadow-lg">
+    <nav className="relative flex justify-between items-center p-5 bg-[#1a1a2e]">
       {/* Logo */}
-      <div className="text-xl font-semibold text-black dark:text-white">
+      <div className="text-xl font-semibold text-white">
         <Link href="/">Sanchit Pahurkar</Link>
       </div>
 
@@ -23,7 +23,7 @@ export default function Navbar() {
         <ToggleSwitch/>
         <button
           onClick={toggleMenu}
-          className="text-black dark:text-white focus:outline-none"
+          className="text-[#00d4ff] focus:outline-none"
         >
           {isOpen ? (
             <svg
@@ -66,22 +66,22 @@ export default function Navbar() {
           isOpen ? 'block' : 'hidden'
         } absolute top-full left-0 w-full bg-white dark:bg-black shadow-lg sm:hidden dark:text-black z-50`}
       >
-        <Link href="/projects" className="block py-2 px-4 border-b dark:text-white">
+        <Link href="/projects" className="block py-2 px-4 border-b bg-[#00d4ff]">
           Projects
         </Link>
-        <Link href="/about" className="block py-2 px-4 border-b dark:text-white">
+        <Link href="/about" className="block py-2 px-4 border-b bg-[#00d4ff]">
           About
         </Link>
-        <Link href="/certifications" className="block py-2 px-4 border-b dark:text-white">
+        <Link href="/certifications" className="block py-2 px-4 border-b bg-[#00d4ff]">
           Certifications
         </Link>
-        <Link href="https://sanchitpahurkar.s3.us-east-1.amazonaws.com/SANCHIT+PAHURKAR+-+CAMPUS+6June.pdf" className="block py-2 px-4 border-b dark:text-white">
+        <Link href="https://sanchitpahurkar.s3.us-east-1.amazonaws.com/SANCHIT+PAHURKAR+-+CAMPUS+6June.pdf" className="block py-2 px-4 border-b bg-[#00d4ff]">
           Resume
         </Link>
       </div>
 
       {/* Nav Links for Medium and Large Devices */}
-      <div className="hidden sm:flex sm:gap-10 sm:items-center dark:text-white text-black">
+      <div className="hidden sm:flex sm:gap-10 sm:items-center text-[#00d4ff]">
         <Link href="/projects" className="py-0 px-0">
           Projects
         </Link>
