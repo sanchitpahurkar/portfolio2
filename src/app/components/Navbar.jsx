@@ -68,20 +68,20 @@ export default function Navbar() {
       >
         <Link href="/projects" className="block py-2 px-4 border-b bg-[#1a1a2e]">
           Projects
-        </Link>
+        </Link> 
         <Link href="/about" className="block py-2 px-4 border-b bg-[#1a1a2e]">
           About
         </Link>
         <Link href="/certifications" className="block py-2 px-4 border-b bg-[#1a1a2e]">
           Certifications
         </Link>
-        <Link href="https://sanchitpahurkar.s3.us-east-1.amazonaws.com/SANCHIT+PAHURKAR+-+CAMPUS+6June.pdf" className="block py-2 px-4 border-b bg-[#1a1a2e]">
+        <Link href="https://drive.google.com/file/d/1kt414EpfoJAYIu-qoM3JsGb5qfJT4wCE/view?usp=sharing" className="block py-2 px-4 border-b bg-[#1a1a2e]">
           Resume
         </Link>
       </div>
 
       {/* Nav Links for Medium and Large Devices */}
-      <div className="hidden sm:flex sm:gap-10 sm:items-center text-[#00d4ff]">
+      <div className="hidden sm:flex sm:gap-10 sm:items-center text-white">
         <Link href="/projects" className="py-0 px-0">
           Projects
         </Link>
@@ -91,7 +91,7 @@ export default function Navbar() {
         <Link href="/certifications" className="py-0 px-0">
           Certifications
         </Link>
-        <Link href="https://sanchitpahurkar.s3.us-east-1.amazonaws.com/SANCHIT+PAHURKAR+-+CAMPUS+6June.pdf" className="py-0 px-0">
+        <Link href="https://drive.google.com/file/d/1kt414EpfoJAYIu-qoM3JsGb5qfJT4wCE/view?usp=sharing" className="py-0 px-0">
           Resume
         </Link>
         <ToggleSwitch/>

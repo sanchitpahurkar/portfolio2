@@ -15,12 +15,6 @@ const page = () => {
     },
     {
       logo: '/assets/eduskills.jpeg',
-      courseName: 'Python Full-Stack Virtual Internship',
-      date:'May 12, 2025',
-      certificateLink: 'https://drive.google.com/file/d/1gXSfGnQeJgw_ibC-cbrvHo2ffv4thsSK/view',
-    },
-    {
-      logo: '/assets/eduskills.jpeg',
       courseName: 'AI-ML Virtual Internship',
       date:'January - March 2025',
       certificateLink: 'https://drive.google.com/file/d/14ta4nmZEq-xYg81suxrLpTMWpisB_Wvn/view',
