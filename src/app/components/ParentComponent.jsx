@@ -26,6 +26,14 @@ const ParentComponent = () => {
     },
 
     {
+      title: 'ReactJs Component Library',
+      description: 'A collection of custom ReactJs components for faster development',
+      image : '/assets/componentlibrary.png',
+      githubLink: 'https://github.com/sanchitpahurkar/ReactJs-Component-Library',
+      deploymentLink: 'https://custom-web-components-library.netlify.app/'
+    },
+
+    {
       title: 'Flask Todo List',
       description: 'A Todo List web-app built using Flask and SQLite',
       image : '/assets/flasktodo.png',
@@ -54,14 +62,6 @@ const ParentComponent = () => {
       githubLink: 'https://github.com/sanchitpahurkar/RESNET50_CEDAR_SIGNATURE_VERIFICATION',
       deploymentLink: 'https://resnet50signatureverfication.streamlit.app/'
     },
-
-    {
-      title: 'ReactJs Component Library',
-      description: 'A collection of custom ReactJs components for faster development',
-      image : '/assets/componentlibrary.png',
-      githubLink: 'https://github.com/sanchitpahurkar/ReactJs-Component-Library',
-      deploymentLink: 'https://custom-web-components-library.netlify.app/'
-    }
   ]
 
   return <Cards projects={projects} />
