@@ -29,8 +29,8 @@ const ParentComponent = () => {
       title: 'ReactJs Component Library',
       description: 'A collection of custom ReactJs components for faster development',
       image : '/assets/componentlibrary.png',
-      githubLink: 'https://github.com/sanchitpahurkar/ReactJs-Component-Library',
-      deploymentLink: 'https://custom-web-components-library.netlify.app/'
+      githubLink: 'https://github.com/sanchitpahurkar/Minture---ReactJs-Component-Library',
+      deploymentLink: 'https://minture-react-js-component-library.vercel.app/'
     },
 
     {
