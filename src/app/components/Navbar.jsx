@@ -91,7 +91,7 @@ export default function Navbar() {
         <Link href="/certifications" className="py-0 px-0">
           Certifications
         </Link>
-        <Link href="https://drive.google.com/file/d/1kt414EpfoJAYIu-qoM3JsGb5qfJT4wCE/view?usp=sharing" className="py-0 px-0">
+        <Link href="https://drive.google.com/file/d/1bIk1hIBbVcmZgWTyZuQEbcQavGEZcZ7k/view?usp=sharing" target='_blank' className="py-0 px-0">
           Resume
         </Link>
         <ToggleSwitch/>

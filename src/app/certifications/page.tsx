@@ -8,6 +8,12 @@ const page = () => {
 
   const certificates = [
     {
+      logo: '/assets/aws-badge.png',
+      courseName: 'AWS Certified Cloud Practitioner',
+      date:'September 22, 2025',
+      certificateLink: 'https://sanchitpahurkar.s3.us-east-1.amazonaws.com/AWS+Certified+Cloud+Practitioner+certificate.pdf',
+    },
+    {
       logo: '/assets/forage.png',
       courseName: 'Solutions Architecture Job Simulation',
       date:'June 23, 2025',
@@ -45,13 +51,6 @@ const page = () => {
       courseName: 'Python for Data Science, AI & Development',
       date:'July 19, 2023',
       certificateLink: 'https://drive.google.com/file/d/1lxLqk80L3-iGQn0O4SwHsN8VRQ8GO-oc/view',
-    },
-
-    {
-      logo: '/assets/edx.svg',
-      courseName: 'Introduction to Linux',
-      date:'Dec 8, 2023',
-      certificateLink: 'https://drive.google.com/file/d/1bdDdzANPXzEfrzaEhBtBSRIde6kcj7jg/view?usp=sharing',
     },
 
     {

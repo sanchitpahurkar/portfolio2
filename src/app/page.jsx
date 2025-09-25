@@ -68,7 +68,7 @@ export default function Home() {
               />
             ))}
           </div>
-        </section> 
+        </section>  
         <ContactForm/>
         <Footer/>
       </div>

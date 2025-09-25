@@ -10,8 +10,8 @@ const About = () => {
           <div className='w-28 h-1 rounded-full bg-gray-800 dark:bg-gray-200'></div>
         </div>
         <p className="text-lg dark:text-gray-400 text-gray-800 leading-relaxed ">
-          I’m a Computer Science (AIML) student at RCOEM, Nagpur, working on Machine Learning, Deep Learning,
-  Web Development, and UI/UX design. I enjoy building meaningful, user-friendly web apps that combine
+          I’m a Computer Science (AIML) student at RCOEM, Nagpur, working on <strong>Machine Learning</strong>, <strong> Cloud</strong>,
+  <strong> Web Development</strong>, and <strong> UI/UX Design</strong>. I enjoy building meaningful, user-friendly web apps that combine
   creativity with clean code and help solve real-world problems. Looking to upskill and grow in a collaborative,
   innovative environment.
         </p>
