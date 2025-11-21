@@ -5,6 +5,14 @@ import Cards from './Cards'
 const ParentComponent = () => {
   const projects = [
     {
+      title: 'QuickBlog',
+      description: 'Full-stack blogging application powered by AI and AWS Cloud',
+      image: '/assets/quickblog.png',
+      githubLink: 'https://github.com/sanchitpahurkar/QuickBlog',
+      deploymentLink: 'https://quick-blog-eight-weld.vercel.app/'
+    },
+
+    {
       title: 'HomeScope',
       description: 'Full-stack application designed to predict house prices',
       image: 'https://sanchitpahurkar.s3.us-east-1.amazonaws.com/homescope.jpeg',
@@ -17,6 +25,14 @@ const ParentComponent = () => {
       githubLink: 'https://github.com/sanchitpahurkar/EventEase-Mini_Project/',
       deploymentLink: 'https://event-ease-xi-nine.vercel.app/'
     },
+
+    {
+      title: 'Job Tracker',
+      description: 'One-place to track all your Job Applications',
+      image : '/assets/jobtracker.png',
+      githubLink: 'https://github.com/sanchitpahurkar/job-tracker',
+    },
+
     {
       title: 'PrimeFlix',
       description: 'A quick movie seach and save app using APIs and Clerk Auth',
@@ -39,20 +55,6 @@ const ParentComponent = () => {
       image : '/assets/flasktodo.png',
       githubLink: 'https://github.com/sanchitpahurkar/flask-tutorial',
       deploymentLink: 'https://flask-todo-c750.onrender.com/'
-    },
-
-    {
-      title: 'DeepSeek Clone',
-      description: 'Built a DeepSeek AI Clone using NextJs, MongoDB, OpenAI API, Clerk Auth',
-      image : '/assets/deepseek.png',
-      githubLink: 'https://github.com/sanchitpahurkar/DeepSeek-Clone'
-    },
-
-    {
-      title: 'MeloMotion',
-      description: 'Hand-tracking tool to control spotify actions',
-      image: 'https://sanchitpahurkar.s3.us-east-1.amazonaws.com/melomotion.png',
-      githubLink: 'https://github.com/sanchitpahurkar/MeloMotion',
     },
 
     {
