@@ -34,3 +34,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+S3_CORS_SETUP.md
+BLOG_FIXES_SUMMARY.md

@@ -69,13 +69,16 @@ export default function Navbar() {
         <Link href="/projects" className="block py-2 px-4 border-b bg-[#1a1a2e]">
           Projects
         </Link> 
+        <Link href="/experience" className="block py-2 px-4 border-b bg-[#1a1a2e]">
+          Experience
+        </Link> 
         <Link href="/about" className="block py-2 px-4 border-b bg-[#1a1a2e]">
           About
         </Link>
         <Link href="/certifications" className="block py-2 px-4 border-b bg-[#1a1a2e]">
           Certifications
         </Link>
-        <Link href="https://drive.google.com/file/d/1kt414EpfoJAYIu-qoM3JsGb5qfJT4wCE/view?usp=sharing" className="block py-2 px-4 border-b bg-[#1a1a2e]">
+        <Link href="https://drive.google.com/file/d/1EuyrIhVlcY4bX6BbL0Z72k7XoYXaLOIM/view?usp=sharing" className="block py-2 px-4 border-b bg-[#1a1a2e]">
           Resume
         </Link>
       </div>
@@ -85,13 +88,16 @@ export default function Navbar() {
         <Link href="/projects" className="py-0 px-0">
           Projects
         </Link>
+        <Link href="/experience" className="py-0 px-0">
+          Experience
+        </Link>
         <Link href="/about" className="py-0 px-0">
           About
         </Link>
         <Link href="/certifications" className="py-0 px-0">
           Certifications
         </Link>
-        <Link href="https://drive.google.com/file/d/1bIk1hIBbVcmZgWTyZuQEbcQavGEZcZ7k/view?usp=sharing" target='_blank' className="py-0 px-0">
+        <Link href="https://drive.google.com/file/d/1EuyrIhVlcY4bX6BbL0Z72k7XoYXaLOIM/view?usp=sharing" target='_blank' className="py-0 px-0">
           Resume
         </Link>
         <ToggleSwitch/>

@@ -10,10 +10,8 @@ const About = () => {
           <div className='w-28 h-1 rounded-full bg-gray-800 dark:bg-gray-200'></div>
         </div>
         <p className="text-lg dark:text-gray-400 text-gray-800 leading-relaxed ">
-          I’m a Computer Science (AIML) student at RCOEM, Nagpur, working on <strong>Machine Learning</strong>, <strong> Cloud</strong>,
-  <strong> Web Development</strong>, and <strong> UI/UX Design</strong>. I enjoy building meaningful, user-friendly web apps that combine
-  creativity with clean code and help solve real-world problems. Looking to upskill and grow in a collaborative,
-  innovative environment.
+          I’m a Software Developer currently working on building secure and scalable <strong>Backend Applications using Java/Spring Boot</strong>, <strong> Cloud</strong>,
+  <strong> Docker/Linux</strong>. I aim to work and contribute to building effective and secure backend systems. Looking forward to project collaborations.
         </p>
 
         <p className='text-lg dark:text-gray-400 text-gray-800 leading-relaxed mt-8'><span className='font-bold'>📧 Email : </span>sanchit.pahurkar@gmail.com</p>

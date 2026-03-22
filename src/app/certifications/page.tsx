@@ -1,7 +1,6 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
 import CertificationCard from '../components/CertificationCard'
-import Footer from '../components/Footer'
+
 
 
 const page = () => {
@@ -63,7 +62,6 @@ const page = () => {
 
   return (
     <div className='dark:bg-[#1a1a2e] bg-[#f1f5f9]'>
-        <Navbar/>
         <div>
             <div className='flex flex-col justify-center items-center py-10 gap-y-1'>
               <h1 className='text-4xl font-bold text-gray-800 text-center dark:text-gray-200'>Certifications</h1>
@@ -81,7 +79,6 @@ const page = () => {
             />
           ))}
         </div>
-        <Footer/>
     </div>
   )
 }

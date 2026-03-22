@@ -5,6 +5,11 @@ import Cards from './Cards'
 const ParentComponent = () => {
   const projects = [
     {
+      title: 'RedBus Clone',
+      description: 'A bus booking backend-system with secure authentication, built using Spring Boot, JWT Auth, mySQL.',
+      image: '/assets/redbus.png',
+    },
+    {
       title: 'QuickBlog',
       description: 'Full-stack blogging application powered by AI and AWS Cloud',
       image: '/assets/quickblog.png',

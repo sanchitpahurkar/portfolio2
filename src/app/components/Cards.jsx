@@ -2,8 +2,6 @@ import React from 'react'
 import Image from 'next/image'
 
 const Cards = ({ projects }) => {
-  console.log('Projects:', projects) // Debugging line
-
   if (!projects || !Array.isArray(projects)) {
     return <p>No projects available.</p>
   }
