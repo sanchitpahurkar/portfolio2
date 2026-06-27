@@ -4,9 +4,14 @@ import ExperienceCard from '../components/ExperienceCard'
 const page = () => {
     const experience = [
         {
+            logo: '/assets/infosys.jpg',
+            jobrole: 'Digital Specialist Engineer',
+            date:'June 22, 2026 - Present'
+        },
+        {
             logo: '/assets/capgemini.png',
             jobrole: 'Software Developer Intern',
-            date:'Jan 5, 2026 - Present'
+            date:'Jan 5, 2026 - Apr 6, 2026'
         },
         {
             logo: '/assets/forage.png',
